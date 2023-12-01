@@ -7,6 +7,9 @@ class Animal {
 	get species() {
 		return this.species;
 	}
+	set species(species) {
+		this.species = species;
+	}
 	makeSound(){
 		console.log(`The ${this.species} makes a sound`);
 	}
@@ -28,9 +31,11 @@ const animal = new Animal("Human");
 console.log(animal.makeSound());
 
 const cat = new Cat("Cat");
+cat.makeSound();
 cat.purr();
 
 const dog = new Dog("Dog");
+dog.makeSound();
 dog.bark();
 
 
