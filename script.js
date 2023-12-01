@@ -28,10 +28,10 @@ const animal = new Animal("Human");
 console.log(animal.makeSound());
 
 const cat = new Cat("Cat");
-console.log(cat.purr());
+cat.purr();
 
 const dog = new Dog("Dog");
-console.log(dog.bark());
+dog.bark();
 
 
 // Do not change the code below this line
