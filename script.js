@@ -2,16 +2,16 @@
 class Animal {
 
 	constructor(species) {
-		this.species = species;
+		this._species = species;
 	}
 	get species() {
-		return this.species;
+		return this._species;
 	}
 	set species(species) {
-		this.species = species;
+		this._species = species;
 	}
 	makeSound(){
-		console.log(`The ${this.species} makes a sound`);
+		console.log(`The ${this._species} makes a sound`);
 	}
 }
 
